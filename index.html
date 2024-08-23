@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function displayDateMessage() {
+            const today = new Date();
+
+            const dayOfMonth = today.getDate();
+
+            if (dayOfMonth < 16) {
+                document.write ("First fifteen days of the month");
+
+            } else {
+                document.write("Last days of the month");
+
+            }
+        }
+
+        displayDateMessage();
+
+    </script>
+</body>
+
+</html>
